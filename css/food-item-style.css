@@ -1,0 +1,67 @@
+:root{
+    --cammel-color: #cb997e;
+    --sand-color: #ddbea9;
+    --bone-color: #ffe8d6;
+    --green-1: #b7b7a4;
+    --green-2: #a5a58d;
+    --green-3: #6b705c;
+    --red: #c63637;
+}
+body {
+    overflow: hidden;
+    background-color: var(--bone-color);
+}
+a{
+    text-decoration: none;
+}
+.contenedor {
+    padding: 5px 20px;
+}
+
+.menu-container .menu {
+    background-color: var(--sand-color);
+    height: 70vh;
+    padding: 30px 0px 20px 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.menu .food-container {
+    display: flex;
+    align-items: center;
+    transition: ease-in 0.5s;
+}
+.menu .food-container img{
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+}
+.menu .food-counter div{
+    background-color: var(--bone-color);
+    padding-top: 10px;
+    width: 100px;
+}
+.menu .food-counter .btn-minusOrder{
+    background-color: var(--red);
+    width: 60px;
+}
+.menu .food-counter .btn-plusOrder{
+    background-color: var(--green-3);
+    width: 60px;
+}
+.menu-container .buttons-order {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-container .buttons-order .btn-cancelOrder{
+    color: white;
+    background-color: var(--red);
+    width: 250px;
+}
+
+.menu-container .buttons-order .btn-doneOrder{
+    color: white;
+    background-color: var(--green-3);
+    width: 250px;
+}

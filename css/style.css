@@ -1,0 +1,81 @@
+:root{
+    --cammel-color: #cb997e;
+    --sand-color: #ddbea9;
+    --bone-color: #ffe8d6;
+    --green-1: #b7b7a4;
+    --green-2: #a5a58d;
+    --green-3: #6b705c;
+    --red: #c63637;
+}
+body {
+    overflow: hidden;
+    background-color: var(--bone-color);
+}
+a{
+    text-decoration: none;
+}
+.contenedor {
+    padding: 5px 20px;
+}
+
+.contenedor .barh-aside {
+    height: 97vh;
+    background-color: var(--cammel-color);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.contenedor .barh-aside .food-container {
+    border-radius: 20px;
+    margin: 20px 0;
+    transition: all 0.5s;
+}
+
+.contenedor .barh-aside .food-container img{
+    border-radius: 20px;
+}
+
+.contenedor .barh-aside .food-container p{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.contenedor .menu-container{
+    width: 80vw;
+}
+
+.contenedor .menu-container .menu {
+    background-color: var(--sand-color);
+    height: 72%;
+    padding: 30px 0px 20px 40px;
+    border-radius: 20px;
+}
+.contenedor .menu .food-container {
+    display: flex;
+    align-items: center;
+    transition: ease-in 0.5s;
+}
+.contenedor .menu .food-container img{
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+}
+
+.contenedor .menu-container .buttons-order {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor .menu-container .buttons-order .btn-cancelOrder{
+    color: white;
+    background-color: var(--red);
+    width: 250px;
+}
+
+.contenedor .menu-container .buttons-order .btn-doneOrder{
+    color: white;
+    background-color: var(--green-3);
+    width: 250px;
+}
