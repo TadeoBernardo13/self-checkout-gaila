@@ -1,0 +1,64 @@
+:root{
+    --cammel-color: #cb997e;
+    --sand-color: #ddbea9;
+    --bone-color: #ffe8d6;
+    --green-1: #b7b7a4;
+    --green-2: #a5a58d;
+    --green-3: #6b705c;
+    --red: #c63637;
+}
+body {
+    overflow: hidden;
+    background-color: var(--bone-color);
+}
+a{
+    text-decoration: none;
+}
+.contenedor {
+    padding: 5px 20px;
+}
+
+.menu-container .menu {
+    background-color: var(--sand-color);
+    height: 90vh;
+    padding: 30px 0px 20px 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.menu .orderSummary .foodOrdered {
+    background-color: var(--bone-color);
+    width: 60%;
+    height: 35vh;
+}
+
+.menu .orderSummary .foodOrdered .listFoodOrdered {
+    list-style: none;
+    padding: 20px 5px;
+}
+.menu .orderSummary .foodOrdered .listFoodOrdered .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu .orderSummary .foodOrdered .listFoodOrdered .item img{
+    width: 40%;
+}
+
+.menu .food-pay-method .btn-payHere {
+    width: 300px;
+    margin-right: 10px;
+}
+
+.menu .food-pay-method .btn-payHere img{
+    width: 100%;
+}
+
+.menu .food-pay-method .btn-atCounter {
+    width: 300px;
+    margin-left: 10px;
+}
+
+.menu .food-pay-method .btn-atCounter img{
+    width: 100%;
+}
