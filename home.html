@@ -17,7 +17,7 @@
 
 <body>
     <div class="row contenedor">
-        <section class="col-md-2 barh-aside d-flex align-items-center">
+        <section class="col-md-2 barh-aside border border-dark overflow-auto" style="--bs-border-opacity: .2;">
             <div class="">
                 <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
                     <a href="breakfast.html">
@@ -43,14 +43,44 @@
                         <p class="text-center">Dessert</p>
                     </a>
                 </div>
+                <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
+                    <a href="#!">
+                        <img src="assets/foodNotfound.webp" class="w-100" />
+                        <p class="text-center">Category #1</p>
+                    </a>
+                </div>
+                <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
+                    <a href="#!">
+                        <img src="assets/foodNotfound.webp" class="w-100" />
+                        <p class="text-center">Category #2</p>
+                    </a>
+                </div>
+                <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
+                    <a href="#!">
+                        <img src="assets/foodNotfound.webp" class="w-100" />
+                        <p class="text-center">Category #3</p>
+                    </a>
+                </div>
+                <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
+                    <a href="#!">
+                        <img src="assets/foodNotfound.webp" class="w-100" />
+                        <p class="text-center">Category #4</p>
+                    </a>
+                </div>
+                <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
+                    <a href="#!">
+                        <img src="assets/foodNotfound.webp" class="w-100" />
+                        <p class="text-center">Category #5</p>
+                    </a>
+                </div> -->
             </div>
         </section>
 
         <section class="menu-container col-md-9">
-            <section class="row menu overflow-auto d-flex align-items-center">
+            <section class="row menu overflow-auto d-flex align-items-center border border-dark overflow-auto" style="--bs-border-opacity: .2;">
                 <p class="text-center fs-1">Choose a one kind of meal to start your order!</p>
             </section>
-            <div class="divider mt-3 mb-3 p-1" style="background-color: #b7b7a4;"><p class="text-center fw-bold">My order:</p></div>
+            <div class="divider mt-3 mb-3 rounded-pill" style="background-color: #6c6c6c;"><p class="text-center fw-bold text-white">My order: <span class="orderId">#</span></p></div>
             <section class="buttons-order">
                 <p class="text-center fs-4">Order Items <span id="item-number">#</span></p>
                 <div class="btn-container d-flex w-100 justify-content-evenly">

@@ -17,51 +17,52 @@
 
 <body>
     <div>
-        <a class="btn btn-warning" href="breakfast.html"><i class="bi bi-box-arrow-in-left"></i>Back to order</a>
+        <a class="btn btn-warning fw-bold" href="breakfast.html"><i class="bi bi-box-arrow-in-left"></i>Back to order</a>
     </div>
-    <section class="menu-container col-md-11 m-auto">
-        <section class="row menu overflow-auto d-flex align-items-center justify-content-center">
+    <section class="order-container col-md-11 m-auto">
+        <section class="row order overflow-auto d-flex align-items-center justify-content-center">
             <div class="orderSummary bg-image ripple shadow-1-strong rounded">
-                <p class="text-center fs-3">Order summary</p>
-                <div class="foodOrdered col-md-3 rounded container overflow-auto">
+                <p class="text-center fs-3 fw-bold">Order summary</p>
+                <p class="text-center fs-3 fw-bold">My order: <span class="orderId">#</span></p>
+                <div class="foodOrdered col-md-3 rounded container overflow-auto border border-dark" style="--bs-border-opacity: .2;">
                     <div class="listFoodOrdered row">
                         <div class="item item# col-md-3">
                             <img src="assets/breakfast/pasty-board.png" />
-                            <p class="text-center fw-bold">Pastry Board</p>
-                            <p class="text-center fs-6">Price: $<span id="food-price">123</span>.40</p>
+                            <p class="text-center fw-bold fs-4">Pastry Board</p>
+                            <p class="text-center fs-4">Price: $<span id="food-price">123.40</span></p>
                         </div>
                         <div class="item item# col-md-3">
                             <img src="assets/breakfast/pasty-board.png" />
-                            <p class="text-center fw-bold">Pastry Board</p>
-                            <p class="text-center fs-6">Price: $<span id="food-price">123</span>.40</p>
+                            <p class="text-center fw-bold fs-4">Pastry Board</p>
+                            <p class="text-center fs-4">Price: $<span id="food-price">123.40</span></p>
                         </div>
                         <div class="item item# col-md-3">
                             <img src="assets/breakfast/pasty-board.png" />
-                            <p class="text-center fw-bold">Pastry Board</p>
-                            <p class="text-center fs-6">Price: $<span id="food-price">123</span>.40</p>
+                            <p class="text-center fw-bold fs-4">Pastry Board</p>
+                            <p class="text-center fs-4">Price: $<span id="food-price">123.40</span></p>
                         </div>
                         <div class="item item# col-md-3">
                             <img src="assets/breakfast/pasty-board.png" />
-                            <p class="text-center fw-bold">Pastry Board</p>
-                            <p class="text-center fs-6">Price: $<span id="food-price">123</span>.40</p>
+                            <p class="text-center fw-bold fs-4">Pastry Board</p>
+                            <p class="text-center fs-4">Price: $<span id="food-price">123.40</span></p>
                         </div>
                         <div class="item item# col-md-3">
                             <img src="assets/breakfast/pasty-board.png" />
-                            <p class="text-center fw-bold">Pastry Board</p>
-                            <p class="text-center fs-6">Price: $<span id="food-price">123</span>.40</p>
+                            <p class="text-center fw-bold fs-4">Pastry Board</p>
+                            <p class="text-center fs-4">Price: $<span id="food-price">123.40</span></p>
                         </div>
                         <div class="item item# col-md-3">
                             <img src="assets/breakfast/pasty-board.png" />
-                            <p class="text-center fw-bold">Pastry Board</p>
-                            <p class="text-center fs-6">Price: $<span id="food-price">123</span>.40</p>
+                            <p class="text-center fw-bold fs-4">Pastry Board</p>
+                            <p class="text-center fs-4">Price: $<span id="food-price">123.40</span></p>
                         </div>
                     </div>
                 </div>
-                <p class="text-center fs-4">Total to pay: $<span class="amount">123</span>.40</p>
+                <p class="text-center fs-4">Total to pay: $<span class="amount">123.40</span></p>
             </div>
-            <div class="food-pay-method col-md-3 ripple shadow-1-strong rounded d-flex">
-                <button class="btn btn-payHere btn-lg p-3 border border-dark" style="--bs-border-opacity: .3;"><img src="assets/payment.png" alt="">Pay Here</button>
-                <button class="btn btn-atCounter btn-lg p-3 border border-dark" style="--bs-border-opacity: .3;"><img src="assets/payment-cash.png" alt="">At counter</button>
+            <div class="food-pay-method ripple shadow-1-strong rounded d-flex justify-content-center">
+                <button class="btn btn-payHere btn-lg p-3 border border-dark" style="--bs-border-opacity: .1;"><img src="assets/payment.png" alt="">Pay Here</button>
+                <button class="btn btn-atCounter btn-lg p-3 border border-dark" style="--bs-border-opacity: .1;"><img src="assets/payment-cash.png" alt="">At counter</button>
             </div>
         </section>
     </section>

@@ -1,15 +1,14 @@
 :root{
-    --cammel-color: #cb997e;
-    --sand-color: #ddbea9;
-    --bone-color: #ffe8d6;
-    --green-1: #b7b7a4;
+    --white1-color: #fff;
+    --white2-color: #f6f6f6;
+    --white3-color: #ececec;
     --green-2: #a5a58d;
     --green-3: #6b705c;
     --red: #c63637;
 }
 body {
     overflow: hidden;
-    background-color: var(--bone-color);
+    background-color: var(--white1-color);
 }
 a{
     text-decoration: none;
@@ -18,47 +17,55 @@ a{
     padding: 5px 20px;
 }
 
-.menu-container .menu {
-    background-color: var(--sand-color);
+.order-container .order {
+    background-color: var(--white2-color);
     height: 90vh;
     padding: 30px 0px 20px 40px;
     border-radius: 20px;
     margin-top: 10px;
 }
 
-.menu .orderSummary .foodOrdered {
-    background-color: var(--bone-color);
+.order .orderSummary .foodOrdered {
+    background-color: var(--white1-color);
     width: 60%;
     height: 35vh;
 }
 
-.menu .orderSummary .foodOrdered .listFoodOrdered {
+.order .orderSummary .foodOrdered .listFoodOrdered {
     list-style: none;
     padding: 20px 5px;
 }
-.menu .orderSummary .foodOrdered .listFoodOrdered .item{
+.order .orderSummary .foodOrdered .listFoodOrdered .item{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.menu .orderSummary .foodOrdered .listFoodOrdered .item img{
+.order .orderSummary .foodOrdered .listFoodOrdered .item img{
     width: 40%;
 }
 
-.menu .food-pay-method .btn-payHere {
-    width: 300px;
-    margin-right: 10px;
+.order .food-pay-method .btn-payHere {
+    background-color: rgba(153, 126, 122, 0.4);
+    width: 250px;
+    margin-right: 50px;
+    box-shadow: 0px 0px 35px 0px rgba(84,84,84,0.75);
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(84,84,84,0.75);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(84,84,84,0.75);
 }
 
-.menu .food-pay-method .btn-payHere img{
+.order .food-pay-method .btn-payHere img{
     width: 100%;
 }
 
-.menu .food-pay-method .btn-atCounter {
-    width: 300px;
-    margin-left: 10px;
+.order .food-pay-method .btn-atCounter {
+    background-color: rgba(153, 126, 122, 0.4);
+    width: 250px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 35px 0px rgba(84,84,84,0.75);
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(84,84,84,0.75);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(84,84,84,0.75);
 }
 
-.menu .food-pay-method .btn-atCounter img{
+.order .food-pay-method .btn-atCounter img{
     width: 100%;
 }

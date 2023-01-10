@@ -11,13 +11,13 @@
     <!-- Bootstrap Icon CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
     <!-- CSS STYLE -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/breakfast-style.css">
     <title>Breakfast</title>
 </head>
 
 <body>
     <div class="row contenedor">
-        <section class="col-md-2 barh-aside d-flex align-items-center">
+        <section class="col-md-2 barh-aside border border-dark overflow-auto" style="--bs-border-opacity: .2;">
             <div class="">
                 <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
                     <a href="#!">
@@ -31,7 +31,7 @@
                         <p class="text-center">Lunch</p>
                     </a>
                 </div>
-                <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
+                 <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
                     <a href="#!">
                         <img src="assets/dinner.webp" class="w-100" />
                         <p class="text-center">Dinner</p>
@@ -43,11 +43,41 @@
                         <p class="text-center">Dessert</p>
                     </a>
                 </div>
+                <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
+                    <a href="#!">
+                        <img src="assets/foodNotfound.webp" class="w-100" />
+                        <p class="text-center">Category #1</p>
+                    </a>
+                </div>
+                <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
+                    <a href="#!">
+                        <img src="assets/foodNotfound.webp" class="w-100" />
+                        <p class="text-center">Category #2</p>
+                    </a>
+                </div>
+                <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
+                    <a href="#!">
+                        <img src="assets/foodNotfound.webp" class="w-100" />
+                        <p class="text-center">Category #3</p>
+                    </a>
+                </div>
+                <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
+                    <a href="#!">
+                        <img src="assets/foodNotfound.webp" class="w-100" />
+                        <p class="text-center">Category #4</p>
+                    </a>
+                </div>
+                <div class="food-container bg-image hover-overlay ripple shadow-1-strong rounded">
+                    <a href="#!">
+                        <img src="assets/foodNotfound.webp" class="w-100" />
+                        <p class="text-center">Category #5</p>
+                    </a>
+                </div> -->
             </div>
         </section>
 
         <section class="menu-container col-md-9">
-            <section class="row menu overflow-auto">
+            <section class="row menu border border-dark overflow-auto" style="--bs-border-opacity: .2;">
                 <div class="food-container col-md-3 bg-image hover-overlay ripple shadow-1-strong rounded">
                     <a href="food-item.html">
                         <img src="assets/breakfast/pasty-board.png"/>
@@ -121,7 +151,7 @@
                     </a>
                 </div>
             </section>
-            <div class="divider mt-3 mb-3 p-1" style="background-color: #b7b7a4;"><p class="text-center fw-bold">My order:</p></div>
+            <div class="divider mt-3 mb-3 rounded-pill" style="background-color: #6c6c6c;"><p class="text-center fw-bold text-white">My order: <span class="orderId">#</span></p></div>
             <section class="buttons-order">
                 <p class="text-center fs-4">Order Items <span id="item-number">#</span></p>
                 <div class="btn-container d-flex w-100 justify-content-evenly">
