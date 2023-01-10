@@ -1,6 +1,6 @@
 # View of the self checkout
-![image](https://user-images.githubusercontent.com/74383773/210788629-04f45948-6c03-4605-85d0-ca5c58b83491.png)
-![image](https://user-images.githubusercontent.com/74383773/210788686-7c244cfc-ebed-4c85-9ecb-984c7378488e.png)
-![image](https://user-images.githubusercontent.com/74383773/210788729-d407fd11-55ee-40d3-881b-b6ac96105b4f.png)
-![image](https://user-images.githubusercontent.com/74383773/210788770-55c77d43-7e2d-46fa-a09c-cbc7beddd59d.png)
-![image](https://user-images.githubusercontent.com/74383773/211146564-a07f5b0c-3dc8-4a9f-b535-709700135975.png)
+![image](https://user-images.githubusercontent.com/74383773/211579265-c9dbd836-85df-48c0-879b-f46fbf55020d.png)
+![image](https://user-images.githubusercontent.com/74383773/211579335-46769e49-c33f-493b-86cb-621072c67f73.png)
+![image](https://user-images.githubusercontent.com/74383773/211579405-33ebf70b-a638-4483-a488-3a01847226d8.png)
+![image](https://user-images.githubusercontent.com/74383773/211579469-908102fc-b094-4f17-befe-33e0fbbce6a6.png)
+![image](https://user-images.githubusercontent.com/74383773/211579643-bec1b84a-50c0-4c5b-be02-3d2f3486088f.png)
